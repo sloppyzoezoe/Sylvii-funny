@@ -1,0 +1,74 @@
+ body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #1e1e2f, #2a2a40);
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .card {
+      background: #111827;
+      padding: 30px;
+      border-radius: 16px;
+      width: 360px;
+      text-align: center;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    }
+
+    .number {
+      font-size: 1.4rem;
+      letter-spacing: 2px;
+      margin-bottom: 16px;
+      font-weight: bold;
+    }
+
+    .question {
+      font-size: 1rem;
+      margin-bottom: 20px;
+      opacity: 0.9;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      margin-top: 12px;
+    }
+
+    button {
+      border: none;
+      padding: 10px 18px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 0.95rem;
+      font-weight: bold;
+    }
+
+    .no {
+      background: #374151;
+      color: #fff;
+    }
+
+    .yes {
+      background: #2563eb;
+      color: #fff;
+    }
+
+    .expiration,
+    .cvv {
+      margin-top: 15px;
+      font-size: 1.1rem;
+      color: #93c5fd;
+      display: none;
+    }
+
+    .exp-buttons,
+    .cvv-buttons {
+      display: none;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 12px;
+    }
